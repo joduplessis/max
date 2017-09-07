@@ -1,0 +1,26 @@
+{
+  "name": "Max",
+  "version": "1.0.0",
+  "description": "Bot using the Bot Builder framework from Microsoft",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^0.11.2",
+    "bluebird": "^3.4.7",
+    "botbuilder": "^3.7.0",
+    "cheerio": "^1.0.0-rc.1",
+    "dotenv-extended": "^1.0.4",
+    "gm": "^1.23.0",
+    "https": "^1.0.0",
+    "mysql": "^2.13.0",
+    "node-cloud-vision-api": "^0.2.0",
+    "request": "^2.81.0",
+    "restify": "^4.3.0"
+  }
+}
